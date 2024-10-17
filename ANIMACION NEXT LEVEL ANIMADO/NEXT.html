@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Next level login animated</title>
+    <title>Siguiente nivel</title>
 </head>
 <body>
     <section>
@@ -133,26 +133,36 @@
 
         <div class="sining">
             <div class="content">
-                <h2>Sign In</h2>
+                <h2>Inicio de sesión</h2>
                 <div class="form">
                     <div class="inputBx">
                         <input type="text" required>
-                        <i>User name</i>
+                        <i>Usuario</i>
                     </div>
                     <div class="inputBx">
                         <input type="password" required>
-                        <i>Password</i>
+                        <i>Contraseña</i>
                     </div>
                     <div class="links">
-                        <a href="#">Forgot password</a>
-                        <a href="#">Signup</a>
+                        <a href="#">Olvidaste tu contraseña?</a>
+                        <a href="#">Registrarme</a>
                     </div>
                     <div class="inputBx">
-                        <input type="submit" value="login">
+                        <input type="submit" value="Entrar" onclick="descargarArchivo()">
                     </div>
                 </div>
             </div>
         </div>
     </section>
+    <script>
+        function descargarArchivo() {
+            // Obtener el enlace de descarga del archivo existente
+            const enlace = document.getElementById('enlaceDescarga');
+            enlace.click(); // Simular un clic en el enlace
+        }
+    </script>
+    <!-- Enlace oculto para el archivo de texto -->
+    <a href="/ANIMACION NEXT LEVEL ANIMADO/preguntas.txt" id="enlaceDescarga" download="preguntas.txt" style="display:none;"></a>
 </body>
+
 </html>
