@@ -1,36 +1,4 @@
 
- Diseño de la Card de Eventos:
-Imagen: En la parte superior de la card, coloca una imagen relacionada con el evento (puede ser un cartel del evento o una foto representativa).
+ wget https://raw.githubusercontent.com/wazuh/wazuh/master/resources/wazuh-certs-tool.sh
 
-Nombre del Evento: Debajo de la imagen, coloca el nombre del evento con un estilo de fuente claro y llamativo.
-
-Fecha y Hora: Debajo del nombre, incluye la fecha y hora del evento.
-
-Ubicación: Añade el lugar donde se llevará a cabo el evento.
-
-Categoría: Puedes incluir etiquetas para identificar si el evento es cultural, recreativo, histórico, etc.
-
-2. Interacción al Hacer Clic en la Card:
-Página Detallada del Evento:
-Imagen Principal: Una imagen más grande o galería de imágenes del evento.
-
-Descripción: Una sección que detalle la información completa del evento (descripción, historia, organizadores).
-
-Ubicación y Mapa: Un mapa interactivo que muestre cómo llegar al lugar del evento.
-
-Opciones de Registro o Compra de Entradas: Botones para registrarse o comprar entradas, si aplica.
-
-Eventos Relacionados: Recomendaciones de eventos similares o en la misma área geográfica.
-
-3. Filtro por Categoría:
-Los botones en la parte superior (Todo, Histórico, Cultural, Natural, Recreativos) pueden filtrar los eventos que se muestran en función de la categoría seleccionada.
-
-4. Ajuste de la Interfaz:
-Animaciones: Puedes añadir animaciones sutiles al pasar el cursor sobre las cards para que resalten.
-
-Diseño Responsivo: Asegúrate de que las cards y el contenido detallado se adapten a diferentes tamaños de pantalla.
-
-Ejemplo Visual:
-Si se implementa, al hacer clic en una card de un evento cultural en Usulután, el usuario sería redirigido a una página donde pueda ver toda la información mencionada anteriormente, con la opción de registrarse, comprar entradas, o incluso compartir el evento en redes sociales.
-
-Esta estructura permitirá que los usuarios naveguen fácilmente por los eventos y obtengan toda la información que necesitan de manera intuitiva y atractiva.
+wget https://raw.githubusercontent.com/wazuh/wazuh/master/resources/wazuh-certs-tool.config.yml -O config.yml
